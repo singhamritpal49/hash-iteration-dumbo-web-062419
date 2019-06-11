@@ -16,4 +16,6 @@ birthday_kids.each do |kids_name,age|
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end
 end
+else
+  puts "You are too old for this."
 end
